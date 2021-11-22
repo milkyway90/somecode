@@ -1,7 +1,17 @@
+const string = window.prompt('giv array: ');
+const array = string.split(' ');
 
 
 function reverse(array){
-    for(let i = 0; i < array.length - 1; i++){
-        console.log(i);
+    let newArray = new Array();
+    let a = array.length;
+
+    for(let i = 0; i < array.length; i++){  
+        a -= 1;
+        newArray[i] = array[a];
     }
+
+    alert(newArray);
 }
+
+reverse(array);
