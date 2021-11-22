@@ -1,5 +1,7 @@
-function isfirst(number){
-    for(let i = 2; i < number; i++){
-        let 
+
+
+function reverse(array){
+    for(let i = 0; i < array.length - 1; i++){
+        stdout.write(i);
     }
 }
